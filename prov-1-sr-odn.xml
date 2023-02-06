@@ -1,0 +1,55 @@
+<sr-te xmlns="http://cisco.com/ns/nso/cfp/cisco-tsdn-sr-te">    
+	<odn xmlns="http://cisco.com/ns/nso/cfp/cisco-tsdn-sr-te-sr-odn">        
+		<odn-template>            
+			<name>odn_4001</name>            
+			<head-end>                
+				<name>Node-5</name>            
+			</head-end>            
+			<head-end>                
+				<name>Node-4</name>            
+			</head-end>            
+			<head-end>                
+				<name>Node-3</name>            
+			</head-end>            
+			<color>4001</color>            
+			<dynamic>                
+				<pce />                
+				<metric-type>igp</metric-type>            
+			</dynamic>        
+		</odn-template>                
+		<odn-template>            
+			<name>odn_4002</name>            
+			<head-end>                
+				<name>Node-5</name>            
+			</head-end>            
+			<head-end>                
+				<name>Node-4</name>            
+			</head-end>            
+			<head-end>                
+				<name>Node-3</name>            
+			</head-end>            
+			<color>4002</color>            
+			<dynamic>                
+				<pce />                
+				<metric-type>te</metric-type>            
+			</dynamic>        
+		</odn-template>               
+		<odn-template>            
+			<name>odn_4003</name>            
+			<head-end>                
+				<name>Node-5</name>            
+			</head-end>            
+			<head-end>                
+				<name>Node-4</name>                
+			</head-end>            
+			<head-end>                
+				<name>Node-3</name>            
+			</head-end>            
+			<color>4003</color>            
+			<dynamic>                
+				<pce />                
+				<metric-type>latency</metric-type>            
+			</dynamic>        
+		</odn-template>           
+	</odn>
+</sr-te>

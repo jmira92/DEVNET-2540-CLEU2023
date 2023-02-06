@@ -1,0 +1,9 @@
+<l3vpn-ntw xmlns="urn:ietf:params:xml:ns:yang:ietf-l3vpn-ntw">  
+	<vpn-profiles>    
+		<valid-provider-identifiers>      
+			<routing-profile-identifier>        
+				<id>VPN-101-ROUTE-POLICY</id>      
+			</routing-profile-identifier>    
+		</valid-provider-identifiers>  
+	</vpn-profiles>
+</l3vpn-ntw>

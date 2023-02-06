@@ -1,0 +1,5 @@
+<NTP xmlns="http://com/example/NTP">
+    <name>viaAPI</name>
+    <device>Node-5</device>
+    <SERVER-ADDRESS>1.1.1.3</SERVER-ADDRESS>
+</NTP>
